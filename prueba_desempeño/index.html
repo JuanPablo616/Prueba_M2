@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- icons of the social media-->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/> 
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Juan Pablo Rojas Uribe.</a>
+        <nav class="navbar">    
+        <a href="#home" class="active">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        </nav>
+    </header>
+        <main>
+            <section class="home" id="home">
+                <div class="home-content">
+                    <h1>Hi, I'm Juan Pablo Rojas Uribe</h1>
+                        <!-- this a animated tittle -->
+                        <h2> 
+                            <span style="--i:1;" data-text="Software development Student">Software development Student</span>
+                        </h2>
+                    <p>I am a technologist in aeronautical maintenance management, I am 24 years old, I am passionate about airplanes and technology.</p>
+                    <p>Passionate about creating innovative digital solutions that solve real problems and improve the user experience. Combining creativity and technical knowledge to turn ideas into code.</p>
+                    <p>aviation taught me that the limit is not heaven.</p>
+                    <p>and development taught me that everything I can imagine I can do</p>
+                    <!-- action buttons to view projects and contact -->
+                    <div class="btn-box">
+                        <a href="#projects">Look projects</a>
+                        <a href="#contact">Contact Me</a>
+                    </div>
+                    <div class="home-sci">
+                        <a href="https://github.com/JuanPablo616"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.linkedin.com/in/juan-pablo-rojas-uribe-b50207249/  "><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+            </section>
+        <!-- ====== PROJECTS SECTION ====== -->
+            <section id="projects" class="projects">
+                <h2 class="heading">My <span>Projects</span></h2>
+                <div class="projects-container">
+                    <div class="project">
+                        <img src="/assets/café_dela_loma.png" alt="project1" />
+                        <h3>café de la loma</h3>
+                        <p>Artisanal cafeteria that wanted to show its image, its products, location and schedules, in an attractive way to catch more users and consumers of this great coffee.</p>
+                        <a href="https://github.com/JuanPablo616/HTML.RIWI/tree/main/Caf%C3%A9%20de%20la%20loma" class="btn">View Project</a>
+                    </div>
+                    <div class="project">   
+                        <img src="/assets/cyclopro-gestiones.jpeg" alt="project2" />
+                        <h3>Cyclo Pro gestiones</h3>
+                        <p>It is an initial project that is beginning to bear fruit for the sponsorship and equipment and athlete of Colombian cycling, it is making its markings known, giving them a good image and positioning</p>
+                        <a href="https://github.com/JuanPablo616/Cyclo_Pro_Gestiones" class="btn">View Project</a>
+                    </div>
+
+                    <div class="project">   
+                        <img src="/assets/gestor.png" alt="logo inventory manager" />
+                        <h3>inventory manager</h3>
+                        <p>this is a project to create an inventory manager, which is used for stores or warehouses that have a high flow of products, in this one, you can make price changes, apply discounts, get the total inventory count, total value, you can also know which products are close to being finished, how many in stock and other functions</p>
+                        <a href="https://github.com/JuanPablo616/RIWI.PY/blob/main/Gestion_inventario.py" class="btn">View Project</a>
+                    </div>
+                </div>
+            </section>
+        <!-- contact form -->
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:juan.rojas0616@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Name" required />
+                <input type="email" name="email" placeholder="Email" required />
+                <textarea name="message" rows="5" placeholder="Message"></textarea>
+                <button type="submit" class="btn">Send</button>
+
+            </form>
+        </section>
+        </main>   
+    <footer>
+        &copy; 2025 with love and a little code Juan Pablo Rojas Uribe🫰
+    </footer>
+</body>
+</html>
